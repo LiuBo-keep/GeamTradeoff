@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GeamTradeoff:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GeamTradeoff_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GeamTradeoff/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GeamTradeoff" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
