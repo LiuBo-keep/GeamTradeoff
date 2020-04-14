@@ -13,7 +13,17 @@ public class LoginServiceImpl implements LoginService {
     private UserMapper userMapper;
 
     @Override
-    public User getById(Integer id) {
-        return userMapper.getById(id);
+    public Integer getUser(String name) {
+        User user=userMapper.getByName(name);
+        if (null!=user){
+            return 1;
+        }
+        return 0;
     }
+
+    @Override
+    public Integer addUser(User user) {
+        return null;
+    }
+
 }

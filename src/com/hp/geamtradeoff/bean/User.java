@@ -1,29 +1,20 @@
 package com.hp.geamtradeoff.bean;
 
-import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
 
-public class User {
+public class User implements Serializable {
     private String name;
     private String password;
     private String email;
-    private String phone;
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                '}';
-    }
+    private Integer age;
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name
+    ) {
         this.name = name;
     }
 
@@ -43,11 +34,21 @@ public class User {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

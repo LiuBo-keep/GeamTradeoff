@@ -4,5 +4,8 @@ import com.hp.geamtradeoff.bean.User;
 
 public interface UserMapper {
 
-    public User getById(Integer id);
+    public User getByName(String name);
+
+    public Integer addUser(User user);
+
 }
