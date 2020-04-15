@@ -23,7 +23,7 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public Integer addUser(User user) {
-        return null;
+        return userMapper.addUser(user);
     }
 
 }

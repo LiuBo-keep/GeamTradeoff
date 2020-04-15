@@ -18,4 +18,21 @@
             <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
         </mvc:message-converters>
     </mvc:annotation-driven>
+
+    <!--访问路径跳转页面-->
+    <mvc:view-controller path="/" view-name="login"/>
+    <mvc:view-controller path="/Page/Hemo" view-name="index"/>
+
+    <!--对静态资源放行-->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/pic/**" location="/pic/"/>
+
+    <!--配置视图路径-->
+    <mvc:view-resolvers>
+        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+            <property name="prefix" value="/WEB-INF/jsp/"/>
+            <property name="suffix" value=".jsp"/>
+        </bean>
+    </mvc:view-resolvers>
 </beans>

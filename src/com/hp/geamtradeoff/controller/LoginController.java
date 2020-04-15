@@ -17,9 +17,7 @@ public class LoginController {
     //用户注册查看用户名是否重复
     @RequestMapping(value = "/getUser",method = RequestMethod.POST)
     @ResponseBody
-    public JsonResource get(
-           @RequestParam("name") String name
-    ){
+    public JsonResource get(String name){
         System.out.println("用户名："+name);
         Integer sta=loginService.getUser(name);
         return new JsonResource(sta);
@@ -31,7 +29,7 @@ public class LoginController {
     public JsonResource add(User user){
         System.out.println("user对象："+user);
         Integer sta=loginService.addUser(user);
-        return new JsonResource(1);
+        return new JsonResource(sta);
     }
 
 }

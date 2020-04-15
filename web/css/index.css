@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.indexTop {
+    width: 100%;
+    height: 14%;
+    z-index: 6666;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    position: fixed;
+}
+
+.indexLogo {
+    width: 240px;
+    height: 92px;
+    position: relative;
+    top: 3px;
+    left: 42px;
+}
+
+.indexLogo img {
+    width: 110px;
+    height: 86px;
+    position: relative;
+    top: 1px;
+}
+
+.indexLogo p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: -webkit-body;
+    position: relative;
+    top: -39px;
+    left: 116px;
+}
+
+.indexText {
+    width: 660px;
+    height: 96px;
+    position: relative;
+    top: -94px;
+    left: 424px;
+}
+
+.indexText ul{
+    position: relative;
+    top: 6px;
+}
+
+.indexText li {
+    padding: 35px;
+    float: left;
+    font-size: large;
+    font-family: initial;
+    font-weight: 545;
+}
+
+.indexLoin {
+    width: 200px;
+    height: 89px;
+    position: relative;
+    top: -187px;
+    left: 1163px;
+}
+
+.indexLoin ul {
+    position: relative;
+    top: 29px;
+    left: 21px;
+}
+
+.indexLoin li {
+    padding: 11px;
+    float: left;
+    font-size: 17px;
+    font-family: initial;
+    font-weight: 545;
+}
+
+.indexLoin span {
+    position: relative;
+    top: 11px;
+    left: -58px;
+}
+
+.indexLun {
+    width: 1279px;
+    height: 506px;
+    overflow: hidden;
+    position: absolute;
+    top: 91px;
+    left: 55px;
+}
+
+.indexLun ul{
+    width: 6395px;
+}
+
+.indexLun li{
+    width: 1279px;
+    height: 506px;
+    float: left;
+}
+
+.indexLun img{
+    width: 1279px;
+    height: 506px;
+}
+
+.indexHuo {
+    width: 1279px;
+    height: 453px;
+    border: 1px solid;
+    position: absolute;
+    top: 603px;
+    left: 55px;
+}
