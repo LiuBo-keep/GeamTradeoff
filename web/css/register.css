@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.registerback{
+    width: 100%;
+    height: 100%;
+    background-image: url(../pic/2a1075c03aac40aeb14839217c302034.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.registermain{
+    width: 32%;
+    height: 75%;
+    border-radius: 5px;
+    position: relative;
+    top: 17%;
+    left: 33%;
+    background-color: rgba(255,255,255,.3);
+}
+
+.registertitle{
+    width: 336px;
+    height: 89px;
+}
+
+.registertitle span{
+    color: white;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: cursive;
+    position: relative;
+    top: 30px;
+    left: 151px;
+}
