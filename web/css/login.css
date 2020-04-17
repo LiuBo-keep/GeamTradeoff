@@ -13,6 +13,15 @@
     background-size:100% 100%;
 }
 
+.geamwarn {
+    width: 200px;
+    height: 45px;
+    /*display: none;*/
+    position: absolute;
+    top: 25px;
+    left: 559px;
+}
+
 .geammain{
     width: 24%;
     height: 60%;
@@ -71,12 +80,12 @@
     left: 24px;
 }
 
-.formpassword{
-    width: 270px;
+.formpassword {
+    width: 240px;
     height: 47px;
     position: relative;
     top: 40px;
-    left: 24px;
+    left: 38px;
 }
 
 .remember {

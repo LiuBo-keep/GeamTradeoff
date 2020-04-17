@@ -24,16 +24,19 @@
         <div class="geamgorm">
             <form method="post">
                 <div class="formname">
-                    <div class="col-auto">
+                    <div id="forname" class="col-auto">
                         <label class="sr-only" for="inlineFormInput">Name</label>
-                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="用户名">
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" name="username" placeholder="用户名">
                     </div>
                 </div>
                 <div class="formpassword">
-                    <div class="col-auto">
+                    <%--<div class="col-auto">
                         <label class="sr-only" for="inlineFormInput">Name</label>
-                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="密码">
-                    </div>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" name="password" placeholder="密码">
+                    </div>--%>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="密码">
+                        </div>
                 </div>
                 <div class="remember">
                     <div class="col-auto">
@@ -46,7 +49,7 @@
                     </div>
                 </div>
                 <div class="btu">
-                    <button type="button" class="btn btn-secondary">登 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+                    <button id="formbtu" type="button" class="btn btn-secondary">登 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
                 </div>
             </form>
         </div>
@@ -56,10 +59,11 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="../../js/jq/jquery-1.11.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../js/jq/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="../../js/login.js"></script>
+<%--<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>--%>
 </body>
 </html>
 

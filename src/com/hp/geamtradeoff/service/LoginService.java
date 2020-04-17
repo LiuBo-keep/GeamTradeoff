@@ -8,4 +8,6 @@ public interface LoginService {
 
     public Integer addUser(User user);
 
+    public Integer getUser(User user);
+
 }

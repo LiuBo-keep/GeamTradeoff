@@ -8,4 +8,5 @@ public interface UserMapper {
 
     public Integer addUser(User user);
 
+    public User getByusername(String name);
 }

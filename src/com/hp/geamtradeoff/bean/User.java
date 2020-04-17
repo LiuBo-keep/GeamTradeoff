@@ -4,18 +4,17 @@ package com.hp.geamtradeoff.bean;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private String name;
+    private String username;
     private String password;
     private String email;
     private Integer age;
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name
-    ) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -45,7 +44,7 @@ public class User implements Serializable {
     @Override
     public String toString() {
         return "User{" +
-                "name='" + name + '\'' +
+                "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'' +
                 ", age=" + age +

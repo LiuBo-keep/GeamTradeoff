@@ -12,5 +12,8 @@
         insert into user (username,password,email,age) values (#{name},#{password},#{email},#{age})
     </insert>
 
+    <select id="getByusername" parameterType="String" resultType="com.hp.geamtradeoff.bean.User">
+        select username,password from user where username=#{name}
+    </select>
 
 </mapper>
